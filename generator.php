@@ -1,10 +1,15 @@
 <?php
 
 //Amount image to create
-$amountIMG = 50;
+$amountIMG = 1;
 
 //path to save
 $path =  "captcha";
+
+if(!is_dir($path)){
+    //Create folder
+    mkdir($path);
+}
 
 //file to save reference
 $fileNameToSave = "list-reference.txt";
