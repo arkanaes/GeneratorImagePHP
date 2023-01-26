@@ -75,14 +75,6 @@ for ($i = 0; $i < $amountIMG; $i++) {
     fclose($fileSaveText);
 }
 /**
-* @description Filtrar array de numeros maiores do que o valor passado.
-*
-* @param {Array} array
-* @param {Number} numero
-* @param {Number} numeros
-**/
-
-/**
  * @description check if already created the code
  * 
  * @param string $code | Code random exemple 4Ec1R
